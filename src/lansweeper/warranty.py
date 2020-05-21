@@ -15,7 +15,7 @@ import getpass
 
 class LanSweeper:
 
-    _url = "https://lansweeper.york.ac.uk/login.aspx"
+    _url = ""
     username = ""
     password = getpass.getpass(prompt='Enter your password:')
     #executable_path = {'executable_path': "C:\\User Files\\lansweeper\\venv\\Scripts\\chromedriver.exe"}
